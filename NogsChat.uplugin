@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0.1",
+	"SemVersion": "1.0.1",
+	"FriendlyName": "Nog's Chat",
+	"Description": "Chat font resizing & sent message history via Up & Down keys",
+	"Category": "Modding",
+	"CreatedBy": "Nog, Robb#6731",
+	"CreatedByURL": "https://ficsit.app/mod/NogsChat",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "http://discord.gg/zqp6U7Y7Nu",
+	"CanContainContent": true,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "NogsChat",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SML",
+			"Enabled": true,
+			"SemVersion": "^3.5.0"
+		}
+	]
+}
